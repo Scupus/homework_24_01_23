@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8190e9-a2eb-4e5e-8f23-da2d476b512c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Buses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trucks.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a8190e9-a2eb-4e5e-8f23-da2d476b512c" name="Changes" comment="Создан метод printType выводится в консоль." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,8 +60,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674804847858</updated>
-      <workItem from="1674804849355" duration="9427000" />
+      <workItem from="1674804849355" duration="16828000" />
     </task>
+    <task id="LOCAL-00001" summary="Созданы перечисления, заданы параметры для перечислений, создан метод вывода в консоль">
+      <created>1674814472330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674814472330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Созданы перечисления, заданы параметры для перечислений, создан метод вывода в консоль">
+      <created>1674814506508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674814506508</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Создан метод printType выводится в консоль.">
+      <created>1674821729414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674821729414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +99,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Созданы перечисления, заданы параметры для перечислений, создан метод вывода в консоль" />
+    <MESSAGE value="Создан метод printType выводится в консоль." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан метод printType выводится в консоль." />
   </component>
 </project>

@@ -1,18 +1,30 @@
 class Cars extends Transport {
-    TypeOfCarBody typeOfCarBody;
+    TypeOfBody typeOfBody;
 
 
-    public Cars(String brand, String model, float engineVolume, TypeOfCarBody typeOfCarBody) {
+    public Cars(String brand, String model, float engineVolume, TypeOfBody typeOfBody) {
         super(brand, model, engineVolume);
-        this.typeOfCarBody = typeOfCarBody;
+        this.typeOfBody = typeOfBody;
     }
 
-    public TypeOfCarBody getTypeOfBody() {
-        return typeOfCarBody;
+    enum TypeOfBody {
+        Седан,
+        Хетчбэк,
+        Купе,
+        Универсал,
+        Внедорожник,
+        Кроссовер,
+        Пикап,
+        Фургон,
+        Минивэн,
     }
 
-    public void setTypeOfBody(TypeOfCarBody typeOfBody) {
-        this.typeOfCarBody = typeOfBody;
+    public TypeOfBody getTypeOfBody() {
+        return typeOfBody;
+    }
+
+    public void setTypeOfBody(TypeOfBody typeOfBody) {
+        this.typeOfBody = typeOfBody;
     }
 
     @Override
@@ -22,21 +34,17 @@ class Cars extends Transport {
 
     public void printCarInformation() {
         System.out.println("Легковой автомобиль марки: " + brand + ", модель: " + model + ", объем двигателя: " +
-                engineVolume + ", тип кузова: " + typeOfCarBody + ".");
+                engineVolume + ", тип кузова: " + typeOfBody + ".");
     }
 
-}
+    public void printType() {
+        if (typeOfBody != null) {
+            System.out.println("Тип кузова автомобиля - " + typeOfBody);
+        } else {
+            System.out.println("Данных по транспортному средству недостаточно");
+        }
 
-enum TypeOfCarBody {
-    Седан,
-    Хетчбэк,
-    Купе,
-    Универсал,
-    Внедорожник,
-    Кроссовер,
-    Пикап,
-    Фургон,
-    Минивэн,
+    }
 
 }
 

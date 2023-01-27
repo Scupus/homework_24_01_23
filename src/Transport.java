@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-abstract class Transport {
+public abstract class Transport {
     final String brand;
     final String model;
     final float engineVolume;
@@ -27,6 +27,7 @@ abstract class Transport {
 
 
     @Override
+
     public String toString() {
         return "Transport{" +
                 "brand='" + brand + '\'' +
@@ -34,6 +35,7 @@ abstract class Transport {
                 ", engineVolume=" + engineVolume +
                 '}';
     }
+
 
     @Override
     public boolean equals(Object o) {
@@ -47,4 +49,5 @@ abstract class Transport {
     public int hashCode() {
         return Objects.hash(brand, model, engineVolume);
     }
+
 }
