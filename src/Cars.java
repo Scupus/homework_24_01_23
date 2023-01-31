@@ -8,16 +8,31 @@ class Cars extends Transport {
     }
 
     enum TypeOfBody {
-        Седан,
-        Хетчбэк,
-        Купе,
-        Универсал,
-        Внедорожник,
-        Кроссовер,
-        Пикап,
-        Фургон,
-        Минивэн,
+        SEDAN("Седан"),
+        HATCHBACK("Хэтчбэк"),
+        CUPE("Купе"),
+        UNIVERSAL("Уневерсал"),
+        OUTLANDER("Внедорожник"),
+        CROSSOVER("Кроссовер"),
+        PICKUP("Пикап"),
+        FURGON("Пикап"),
+        MINIVAN("Минивен");
+        private String translation;
+
+        TypeOfBody(String translation) {
+            this.translation = translation;
+        }
+
+        public String getTranslation() {
+            return translation;
+        }
+
+        @Override
+        public String toString() {
+            return translation;
+        }
     }
+
 
     public TypeOfBody getTypeOfBody() {
         return typeOfBody;
@@ -43,7 +58,6 @@ class Cars extends Transport {
         } else {
             System.out.println("Данных по транспортному средству недостаточно");
         }
-
     }
 
 }

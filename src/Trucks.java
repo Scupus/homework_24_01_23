@@ -1,9 +1,23 @@
 public class Trucks extends Transport {
     TypeOfBody typeOfBody;
     enum TypeOfBody {
-        N1,
-        N2,
-        N3
+        N1("до 5 тонн"),
+        N2("до 10 тонн"),
+        N3("до 15 тонн");
+        private String translation;
+
+        TypeOfBody(String translation) {
+            this.translation = translation;
+        }
+
+        public String getTranslation() {
+            return translation;
+        }
+
+        @Override
+        public String toString() {
+            return translation;
+        }
     }
 
     public Trucks(String brand, String model, float engineVolume, TypeOfBody typeOfBody) {
